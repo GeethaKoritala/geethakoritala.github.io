@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  #navbar {
+    background-color: rgb(27, 27, 27);
+    position: fixed;
+    width: 100%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .nav-options {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  .nav-options li {
+    list-style: none;
+  }
+  .nav-options a {
+    color: rgb(214, 123, 19);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+  }
+  .nav-options a:hover {
+    color: aquamarine;
+  }
+  @media screen and (max-width: 1024px) {
+    .nav-options {
+      width: 70%;
+    }
+  }
+  .home img {
+    border-radius: 60%;
+    width: 40%;
+    height: 40%;
+  }
+  .home img:hover{
+    width: 50%;
+    height: 50%;
+  }
+  .home {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: rgb(180, 178, 178);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 0px 50px;
+    text-align: right;
+  }
+  
+  .intro {
+    font-size: 30px;
+    font-style: italic;
+  }
+  
+  .about {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(63, 233, 40);
+    height: 100vh;
+    padding: 0px 50px;
+    text-align: center;
+  }
+  .skills-images img{
+    width:100%;
+    height:100%;
+  }
+  .skills {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(72, 243, 234);
+    height: 100vh;
+    padding: 0px 50px;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .projects{
+    height:100vh;
+  }
+  
+  .projects{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(240, 191, 29);
+    height:100vh;
+    padding: 0px 50px;
+    text-align: center;
+  }
+  
+  .martialarts {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 0px 50px;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .hire {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(173, 6, 173);
+    height: 100vh;
+    padding: 0px 50px;
+    text-align: center;
+  }
+  
+  .headings{
+    text-align: center;
+    background-color: rgb(39, 30, 43);
+    color:lightpink;
+    font-style: italic;
+    letter-spacing: 2px;
+  }
+  
+  
+  
